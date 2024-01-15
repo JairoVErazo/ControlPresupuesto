@@ -2,13 +2,15 @@
 using ClosedXML.Excel;
 using ControlPresupuesto.Models;
 using ControlPresupuesto.Services;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using System.Data;
-using System.Reflection;
+
 
 namespace ControlPresupuesto.Controllers
 {
+
     public class TransaccionesController : Controller
     {
         private readonly IUsersService usersService;
@@ -287,7 +289,7 @@ namespace ControlPresupuesto.Controllers
             int usuarioId = usersService.GetUserid();
             dynamic modelo = await servicioReportes
                 .ObtenerReporteTransaccionesDetalladas(usuarioId, mes, año, ViewBag);
-            return View(modelo);
+            return View( "Index", modelo);
         }
 
         public async Task<IActionResult> Crear()
