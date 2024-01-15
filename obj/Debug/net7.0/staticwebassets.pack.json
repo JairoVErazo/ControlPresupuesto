@@ -17,6 +17,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\Jairo\\source\\repos\\ControlPresupuesto\\ControlPresupuesto\\wwwroot\\js\\FormularioTransacciones.js",
+      "PackagePath": "staticwebassets\\js\\FormularioTransacciones.js"
+    },
+    {
       "Id": "C:\\Users\\Jairo\\source\\repos\\ControlPresupuesto\\ControlPresupuesto\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
@@ -199,6 +203,14 @@
     {
       "Id": "C:\\Users\\Jairo\\source\\repos\\ControlPresupuesto\\ControlPresupuesto\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\Jairo\\source\\repos\\ControlPresupuesto\\ControlPresupuesto\\wwwroot\\lib\\fullcalendar\\main.min.css",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\main.min.css"
+    },
+    {
+      "Id": "C:\\Users\\Jairo\\source\\repos\\ControlPresupuesto\\ControlPresupuesto\\wwwroot\\lib\\fullcalendar\\main.min.js",
+      "PackagePath": "staticwebassets\\lib\\fullcalendar\\main.min.js"
     },
     {
       "Id": "C:\\Users\\Jairo\\source\\repos\\ControlPresupuesto\\ControlPresupuesto\\wwwroot\\lib\\jquery-ui\\AUTHORS.txt",

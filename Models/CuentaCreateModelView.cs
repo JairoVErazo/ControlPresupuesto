@@ -2,7 +2,7 @@
 
 namespace ControlPresupuesto.Models
 {
-    public class CuentaCreateDTO : Cuenta
+    public class CuentaCreateModelView : Cuenta
     {
         public IEnumerable<SelectListItem> TiposCuentas { get; set; }
     }
